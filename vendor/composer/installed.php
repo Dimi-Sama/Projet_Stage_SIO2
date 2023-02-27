@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'c4aa198c357ef29b6f15f3d695948c6de278e21e',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'c4aa198c357ef29b6f15f3d695948c6de278e21e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'hisune/echarts-php' => array(
+            'pretty_version' => '1.1.3',
+            'version' => '1.1.3.0',
+            'reference' => '9a62d82a710088ec774a761cd5f5ad87a043ff08',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hisune/echarts-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'stripe/stripe-php' => array(
+            'pretty_version' => 'v10.4.0',
+            'version' => '10.4.0.0',
+            'reference' => '87def896d9a2e2914871408277d67432cb112f71',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../stripe/stripe-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

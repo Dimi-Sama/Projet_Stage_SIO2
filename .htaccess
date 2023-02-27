@@ -1,0 +1,3 @@
+Options -Indexes
+ErrorDocument 403 http://localhost/backoffice_login_php/403
+ErrorDocument 404 http://localhost/backoffice_login_php/404
